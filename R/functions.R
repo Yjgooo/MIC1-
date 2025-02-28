@@ -88,7 +88,7 @@ mean_from_surv <- function(model, cov = NULL) {
 MIC <- function(df, method, user_formula = NULL, cov_input = NULL) {
 
   if(method == "np"){
-    model <- ic_np(cbind(df$l, df$r))
+    model <- ic_np(cbind(df$L, df$R))
   } else if(method %in% c("po", "ph")){
     full_formula <- as.formula(
       paste("Surv(L, R, type = 'interval2') ~", user_formula)

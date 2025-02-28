@@ -1,9 +1,9 @@
 Package: MIC1
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: MIC Estimation
+Version: 1.0
 Authors@R: 
-    person("Xi", "Gong", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Xi", "Gong", , "gongxi@msu.edu", role = c("aut", "cre"))
+Description: Estimate MIC1 using 1) NPMLE 2) Cox-ph 3) proportional odds
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
